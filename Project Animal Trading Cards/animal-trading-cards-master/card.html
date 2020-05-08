@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta charset = "utf-8">
 	<title>Animal Trading Cards</title>
+	<link rel="stylesheet" href = "styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div>
-		<!-- your favorite animal's name goes here -->
-		<h3>Animal's name</h3>
-		<!-- your favorite animal's image goes here -->
-		<img src="placeholder.png" alt="name-of-your-animal">
-		<div>
-			<!-- your favorite animal's interesting fact goes here -->
-			<p>Write an interesting fact about your favorite animal...</p>
-			<ul>
-				<!-- your favorite animal's list items go here -->
-				<li><span>Label</span>: Item #1</li>
-				<li><span>Label</span>: Item #2</li>
-				<li><span>Label</span>: Item #3</li>
-				<li><span>Label</span>: Item #4</li>
-			</ul>
-			<!-- your favorite animal's description goes here -->
-			<p>Write a brief description about your favorite animal...</p>
+	<div class="card">
+		<div class="container">
+			<!-- your favorite animal's name goes here -->
+			<h3 class = "name">Capuchin Monkey</h3>
+			<!-- your favorite animal's image goes here -->
+			<div class = "image">
+				<img src = "monkey.png" alt = "Capuchin Monkey">
+			</div>
+			<div class="information">
+				<div class= "text">
+				 <!-- your favorite animal's interesting fact goes here -->
+					<p id="fact">Capuchin monkeys pee on their hands to wash their feet.</p>
+					<ul>
+					 <!-- your favorite animal's list items go here -->
+						<li><span>Family</span>: Cebidae</li>
+						<li><span>Average Height</span>: 43 cm</li>
+						<li><span>Average Weight</span>: 5.5 pounds</li>
+						<li><span>Habitat</span>: Tropical forests</li>
+					</ul>
+				 <!-- your favorite animal's description goes here -->
+					<p id="description">Agile and lean, capuchin monkeys weigh only 3 - 9 pounds (1.36 - 4.9 kilograms).<br>
+					The fur of the capuchin monkey varies, but is most commonly seen with cream or light tan coloring<br>
+					around the face, neck and shoulders.<br>
+					The rest of its coat is dark brown.<br>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

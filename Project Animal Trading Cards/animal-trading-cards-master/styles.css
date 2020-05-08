@@ -1,1 +1,74 @@
-/* add your CSS here */
+.card {
+    border:1px solid black;
+    padding:10px 5px 10px 5px;
+    width:360px;
+    background-color: #5E0A13;
+    border-radius: 5px;
+}
+
+.container {
+    width: 340px;
+    border: 1px solid grey;
+    text-align: center;
+    padding:1px;
+    height: 545px;
+    flex-wrap: wrap;
+    background-color: ivory;
+    margin:auto;
+    border-radius: 5px;
+}
+
+.information {
+    border: 2px solid grey;
+    border-radius: 5%;
+    text-align: justify;
+    width: 300px;
+    margin: auto;
+    font-size: small;
+    background-color: rgba(253,65,25,0.3)
+}
+
+.text {
+    padding:0.2cm;
+}
+
+.name {
+    border-left: 0.5cm;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    padding:1px;
+    padding-left: 20px;
+    padding-bottom: 0;
+    margin-bottom: 8px;
+}
+
+img {
+    border-radius: 5%;
+    border: 2px solid grey;
+    text-align: center;
+    width:300px;
+}
+
+.image {
+    padding: 0.3cm;
+    padding-bottom: 0.2cm;
+    padding-top: 0cm;
+}
+
+#fact {
+    font-style: italic;
+}
+
+ul {
+    padding:0.2px;
+    margin: auto;
+}
+
+span{
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
+}
